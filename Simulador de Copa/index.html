@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Simulador Copa</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Simulação da Copa do Mundo</h1>
+
+    <!-- Botão -->
+    <button onclick="gerarCopa()">Simular Copa</button>
+
+    <!-- CONTAINER GERAL -->
+    <div id="container">
+
+        <!-- FASE DE GRUPOS -->
+        <div id="grupos-section">
+            <h2>Fase de Grupos</h2>
+            <div id="grupos"></div>
+        </div>
+
+        <!-- MATA-MATA -->
+        <div id="mata-section">
+        <h2>Mata-mata</h2>
+        <div id="bracket-container">
+            <svg id="linhas"></svg>
+            <div id="bracket"></div>
+        </div>
+        </div>
+
+    </div>
+
+    <!-- JS -->
+    <script src="simulador.js"></script>
+
+</body>
+</html>
